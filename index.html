@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Selected Value</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<h2>Currency Converter</h2>
+			<form class="card">
+				<div class="first">
+					<select id="country1">
+						<option value="USD">USD</option>
+						<option value="INR">INR</option>
+						<option value="EUR">EUR</option>
+						<option value="GBP">GBP</option>
+						<option value="AUD">AUD</option>
+						<option value="BGN">BGN</option>
+						<option value="BRL">BRL</option>
+						<option value="CAD">CAD</option>
+						<option value="CHF">CHF</option>
+						<option value="CNY">CNY</option>
+						<option value="CZK">CZK</option>
+						<option value="DKK">DKK</option>
+						<option value="HKD">HKD</option>
+						<option value="HRK">HRK</option>
+						<option value="HUF">HUF</option>
+						<option value="IDR">IDR</option>
+						<option value="ILS">ILS</option>
+						<option value="ISK">ISK</option>
+						<option value="JPY">JPY</option>
+						<option value="KRW">KRW</option>
+						<option value="MXN">MXN</option>
+						<option value="MYR">MYR</option>
+						<option value="NOK">NOK</option>
+						<option value="NZD">NZD</option>
+						<option value="PHP">PHP</option>
+						<option value="PLN">PLN</option>
+						<option value="RON">RON</option>
+						<option value="RUB">RUB</option>
+						<option value="SEK">SEK</option>
+						<option value="SGD">SGD</option>
+						<option value="THB">THB</option>
+						<option value="TRY">TRY</option>
+						<option value="ZAR">ZAR</option>
+					</select>
+					<input
+						type="number"
+						class="input-group-text"
+						id="amount1"
+						placeholder="Type amount here..."
+					/>
+				</div>
+				<hr />
+				<div class="second">
+					<select id="country2">
+						<option value="USD">USD</option>
+						<option value="INR">INR</option>
+						<option value="EUR">EUR</option>
+						<option value="GBP">GBP</option>
+						<option value="AUD">AUD</option>
+						<option value="BGN">BGN</option>
+						<option value="BRL">BRL</option>
+						<option value="CAD">CAD</option>
+						<option value="CHF">CHF</option>
+						<option value="CNY">CNY</option>
+						<option value="CZK">CZK</option>
+						<option value="DKK">DKK</option>
+						<option value="HKD">HKD</option>
+						<option value="HRK">HRK</option>
+						<option value="HUF">HUF</option>
+						<option value="IDR">IDR</option>
+						<option value="ILS">ILS</option>
+						<option value="ISK">ISK</option>
+						<option value="JPY">JPY</option>
+						<option value="KRW">KRW</option>
+						<option value="MXN">MXN</option>
+						<option value="MYR">MYR</option>
+						<option value="NOK">NOK</option>
+						<option value="NZD">NZD</option>
+						<option value="PHP">PHP</option>
+						<option value="PLN">PLN</option>
+						<option value="RON">RON</option>
+						<option value="RUB">RUB</option>
+						<option value="SEK">SEK</option>
+						<option value="SGD">SGD</option>
+						<option value="THB">THB</option>
+						<option value="TRY">TRY</option>
+						<option value="ZAR">ZAR</option>
+					</select>
+					<input
+						type="number"
+						class="input-group-text"
+						id="amount2"
+						placeholder="Converted amount..."
+					/>
+				</div>
+				<br />
+				<button class="btn btn-primary btn-lg" id="Convert">Convert</button>
+			</form>
+		</div>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
